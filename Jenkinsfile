@@ -9,10 +9,10 @@ node{
                 sh 'rm -rf *'
                 sh 'ls'
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'ab26ea6d-6a55-437d-9bdd-c981ce043068', url: 'https://bitbucket.org/pabhoz/formatic-pruebas-laps']]])
-                sh 'wget https://codeception.com/codecept.phar'
-                sh 'mv ./codecept.phar ./codecept'
-                sh 'chmod +x ./codecept'
-                sh 'ls'
+                #sh 'wget https://codeception.com/codecept.phar'
+                #sh 'mv ./codecept.phar ./codecept'
+                #sh 'chmod +x ./codecept'
+                #sh 'ls'
             }
         }
         stage('Build') {
