@@ -5,17 +5,17 @@ node{
     stages {
         stage('Checkout') {
             steps {
-                echo 'Cheking out..'
+                echo 'Cheking out...'
             }
         }
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building...'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing...'
             }
         }
         stage('Deploy') {
