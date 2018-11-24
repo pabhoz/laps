@@ -5,7 +5,7 @@ node{
     stages {
         stage('Checkout') {
             steps {
-                echo 'Cheking out..'
+                echo 'Cheking out...'
             }
         }
         stage('Build') {
